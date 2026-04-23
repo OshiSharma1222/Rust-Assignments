@@ -8,5 +8,8 @@
 */
 
 pub fn swap_tuple(t: (i32, i32)) -> (i32, i32) {
-    todo!()
+    let x: i32 = t.0;
+    let y: i32 = t.1;
+    (y, x)
+    //explanation: The function takes a tuple `t` as input, extracts the first and second elements into variables `x` and `y`, and then returns a new tuple with the order of the elements swapped.
 }
