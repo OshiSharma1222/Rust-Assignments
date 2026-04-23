@@ -9,7 +9,7 @@
 */
 
 pub fn append_world(mut s: String) -> String {
-    let str = String::from(" world");
+    let str: &str= " world";
     s.push_str(str);
     s
 }
